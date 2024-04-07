@@ -1,69 +1,660 @@
 <!DOCTYPE html>
-   <html lang="en">
-   <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
 
-      <!--=============== FAVICON ===============-->
-      <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-      <!--=============== REMIXICONS ===============-->
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
+   <!--=============== FAVICON ===============-->
+   <link rel="shortcut icon" href="assets/img/Pinprapha.png" type="image/x-icon">
 
-      <!--=============== CSS ===============-->
-      <link rel="stylesheet" href="assets/css/styles.css">
+   <!--=============== REMIXICONS ===============-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.4.0/remixicon.css" crossorigin="">
 
-      <title>Responsive portfolio website Rian - Bedimcode</title>
-   </head>
-   <body>
-      <!--==================== HEADER ====================-->
-      <header class="header" id="header">
-         
-      </header>
+   <!--=============== CSS ===============-->
+   <link rel="stylesheet" href="assets/css/styles.css">
 
-      <!--==================== MAIN ====================-->
-      <main class="main">
-         <!--==================== HOME ====================-->
-         <section class="home section" id="home">
-            
-         </section>
+   <title>My Portfolio</title>
+</head>
 
-         <!--==================== ABOUT ====================-->
-         <section class="about section" id="about">
-            
-         </section>
+<body>
+   <!--==================== HEADER ====================-->
+   <header class="header" id="header">
+      <nav class="nav container">
+         <a href="#" class="nav__logo">
+            <span class="nav__logo-circle">P</span>
+            <span class="nav__logo-name">Pinpraphaporn</span>
+         </a>
 
-         <!--==================== SERVICES ====================-->
-         <section class="services section">
-            
-         </section>
+         <div class="nav__menu" id="nav-menu">
+            <span class="nav__title">Menu</span>
 
-         <!--==================== PROJECTS ====================-->
-         <section class="projects section" id="projects">
-            
-         </section>
+            <ul class="nav__list">
+               <li class="nav__item">
+                  <a href="#home" class="nav__link">Home</a>
+               </li>
 
-         <!--==================== CONTACT ====================-->
-         <section class="contact section" id="contact">
-            
-         </section>
-      </main>
+               <li class="nav__item">
+                  <a href="#about" class="nav__link">About</a>
+               </li>
 
-      <!--==================== FOOTER ====================-->
-      <footer class="footer">
-         
-      </footer>
+               <li class="nav__item">
+                  <a href="#skills" class="nav__link">Skills</a>
+               </li>
 
-      <!--========== SCROLL UP ==========-->
-      
+               <li class="nav__item">
+                  <a href="#projects" class="nav__link">Projects</a>
+               </li>
 
-      <!--=============== SCROLLREVEAL ===============-->
-      <script src=""></script>
-      
-      <!--=============== EMAIL JS ===============-->
-      
+               <li class="nav__item">
+                  <a href="#activitys" class="nav__link">Activitys</a>
+               </li>
 
-      <!--=============== MAIN JS ===============-->
-      <script src="assets/js/main.js"></script>
-   </body>
+               <li class="nav__item">
+                  <a href="#contacts" class="nav__link nav__link-button">Contacts</a>
+               </li>
+            </ul>
+
+            <!-- Close button -->
+            <div class="nav__close" id="nav-close">
+               <i class="ri-close-line"></i>
+            </div>
+         </div>
+
+         <div class="nav__buttons">
+            <!-- Theme button -->
+            <i class="ri-moon-line change-theme" id="theme-button"></i>
+
+            <!-- Toggle button -->
+            <div class="nav__toggle" id="nav-toggle">
+               <i class="ri-menu-4-line"></i>
+            </div>
+         </div>
+      </nav>
+   </header>
+
+   <!--==================== MAIN ====================-->
+   <main class="main">
+      <!--==================== HOME ====================-->
+      <section class="home section" id="home">
+         <div class="home__container container grid">
+            <h1 class="home__name">
+               Pinpraphaporn
+            </h1>
+
+            <div class="home__perfil">
+               <div class="home__image">
+                  <img src="assets/img/Pinprapha11.png" alt="Home image" class="home__img">
+                  <div class="home__shadow"></div>
+
+                  <img src="assets/img/curved-arrow.svg" alt="Home arrow" class="home__arrow">
+                  <img src="assets/img/random-lines.svg" alt="Home random lines" class="home__line">
+
+                  <div class="geometric-box"></div>
+               </div>
+
+               <div class="home__social">
+                  <a href="https://www.instagram.com/" target="_blank" class="home__social-link">
+                     <i class="ri-instagram-line"></i>
+                  </a>
+                  <a href="https://www.linkedin.com/" target="_blank" class="home__social-link">
+                     <i class="ri-linkedin-box-line"></i>
+                  </a>
+                  <a href="https://github.com/" target="_blank" class="home__social-link">
+                     <i class="ri-github-line"></i>
+                  </a>
+               </div>
+            </div>
+
+            <div class="home__info">
+               <p class="home__description">
+                  Passionate about working <b>Business Analyst</b>, I have experience as a front-end developer intern, I
+                  am skilled in SQL and Power BI.
+               </p>
+
+               <a href="#about" class="home__scroll">
+                  <div class="home__scroll-box">
+                     <i class="ri-arrow-down-s-line"></i>
+                  </div>
+
+                  <span class="home__scroll-text">Scroll Down</span>
+               </a>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== ABOUT ====================-->
+      <section class="about section" id="about">
+         <div class="about__container container grid">
+            <h2 class="section__title-1">
+               About Me.
+            </h2>
+
+            <div class="about__perfil">
+               <div class="about__image">
+                  <img src="assets/img/Pinprapha12.JPG" alt="About image" class="about__img">
+                  <div class="about__shadow"></div>
+                  <div class="geometric-box"></div>
+                  <img src="assets/img/random-lines.svg" alt="About line" class="about__line">
+                  <div class="about__box"></div>
+               </div>
+            </div>
+
+            <div class="about__info">
+               <p class="about__description">
+                  <b>I am a new graduate </b> in computer science and have a keen interest in working in business
+                  analyst.
+                  I have experience as a front-end developer intern, I always learn new things and improve my skills
+                  and, I am proficient at collaborating effectively with others.
+               </p>
+
+               <!-- <ul class="about__list">
+                     <li class="about__item">
+                        <b>My Skills Are:</b> HTML, CSS, JavaScript, 
+                        React, Git & GitHub, Bootstrap, Flutter & 
+                        Figma.
+                     </li>
+                  </ul> -->
+
+               <div class="about__buttons">
+                  <a href="assets/img/Resume.png" class="button">
+                     <i class="ri-send-plane-line"></i> Resume
+                  </a>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!--==================== SERVICES ====================-->
+      <section id="skills" class="services section">
+         <h2 class="section__title-2">
+            <span>Skills.</span>
+         </h2>
+
+         <div class="services__container container grid">
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-html5-line"></i>
+                  </div>
+
+                  <h2 class="services__title">HTML</h2>
+
+                  <!-- <p class="services__description">
+                        Beautiful and elegant designs with 
+                        interfaces that are intuitive, efficient 
+                        and pleasant  to use for the user.
+                     </p> -->
+               </div>
+            </article>
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-css3-fill"></i>
+                  </div>
+
+                  <h2 class="services__title">CSS</h2>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-reactjs-line"></i>
+                  </div>
+
+                  <h2 class="services__title">React</h2>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <i class="ri-tailwind-css-line"></i>
+                     <center><img class="skills__container-img" src="/assets/img/icons/tailwind-css-line.svg"
+                           style="width: 3rem; position: relative;"></center>
+                  </div>
+
+                  <h2 class="services__title">Tailwind CSS</h2>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <img class="skills__container-img" src="/assets/img/icons/Figma--Streamline-Core.svg"
+                        style="width: 3rem; position: relative;">
+                  </div>
+
+                  <h2 class="services__title">Figma</h2>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <img class="skills__container-img" src="/assets/img/icons/Microsoft-Logo--Streamline-Logos.svg"
+                        style="width: 3rem; position: relative;">
+                  </div>
+
+                  <h2 class="services__title">Microsoft Office</h2>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <img class="skills__container-img" src="/assets/img/icons/Database--Streamline-Core.svg"
+                        style="width: 3rem; position: relative;">
+                  </div>
+
+                  <h2 class="services__title">SQL</h2>
+               </div>
+            </article>
+
+            <article class="services__card">
+               <div class="services__border"></div>
+
+               <div class="services__content">
+                  <div class="services__icon">
+                     <div class="services__box"></div>
+                     <img class="skills__container-img"
+                        src="/assets/img/icons/Google-Analytics-Logo--Streamline-Ultimate.svg"
+                        style="width: 3rem; position: relative;">
+                  </div>
+
+                  <h2 class="services__title">Power BI</h2>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects section" id="projects">
+         <h2 class="section__title-1">
+            <span>Projects.</span>
+         </h2>
+
+         <div class="projects__container container grid">
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project7.png" alt="Projects 1" class="projects__img">
+
+                  <!-- <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a> -->
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">โปรเจ็คต์สหกิจศึกษา</span>
+                  <h2 class="projects__title">ระบบจัดการแชทบริการลูกค้า</h2>
+
+                  <p class="projects__description">
+                     โครงงานนี้เป็นการพัฒนาเว็บแอปพลิเคชั่นระบบจัดการแชทบริการลูกค้าเพื่อให้แอดมินของธุรกิจสามารถจัดการแชทผ่านช่องทางเดียวบนระบบ
+                     <br />
+                     <b>การมีส่วนร่วมในโครงงานนี้</b> ได้ออกแบบหน้าจอระบบด้วยโปรแกรม Figma และทำ UI Components ด้วย
+                     React
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-dribbble-line"></i> View
+                     </a>
+                  </div> -->
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/Project1.jpg" alt="Projects 2" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">โปรเจ็คต์วิชาโครงงานวิจัยทางวิทยาการคอมพิวเตอร์</span>
+                  <h2 class="projects__title">เว็บแอปพลิเคชันส่งเสริมการท่องเที่ยวเกาะยอ ด้วยเทคโนโลยีความจริงเสริม</h2>
+
+                  <p class="projects__description">
+                     โครงงานนี้เป็นการพัฒนาเว็บแอปพลิเคชั่นสำหรับแสดงสถานที่ท่องเที่ยวโดยใช้เทคโนโลยีความจริงเสริม
+                     สำหรับตำบลเกาะยอ จังหวัดสงขลา <br />
+                     <b>การมีส่วนร่วมในโครงงานนี้</b>
+                     ได้วิเคราะห์ระบบ โดยใช้เครื่องมือ Draw.io ในการวาด Diagram และออกแบบหน้าจอ โดยใช้โปรแกรม Figma
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project4.png" alt="Projects 3" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">วิชาการวิเคราะห์และออกแบบระบบ</span>
+                  <h2 class="projects__title">ระบบจองคิวรถตู้ป่าพะยอม-หาดใหญ่</h2>
+
+                  <p class="projects__description">
+                     โครงงานนี้เป็นการวิเคราะห์และออกแบบระบบให้ตรงตามความต้องการของผู้ใช้
+                     และสามารถนำไประบบที่ได้พัฒนาเป็นเว็บแอปพลิเคชั่นต่อไป <br />
+                     <b>การมีส่วนร่วมในโครงงานนี้</b>ได้วิเคราะห์และออกแบบระบบ โดยใช้เครื่องมือ Draw.io ในการวาด Diagram
+                     ต่างๆ
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project5.png" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">วิชาการโปรแกรมเว็บขั้นสูง</span>
+                  <h2 class="projects__title">ระบบจัดการตารางแนะแนวของคณะวิทยาศาสตร์</h2>
+
+                  <p class="projects__description">
+                     โครงงานนี้เป็นการวิเคราะห์และออกแบบระบบ
+                     เพื่อพัฒนาเว็บแอปพลิเคชั่นระบบจัดการตารางแนะแนวของคณะวิทยาศาสตร์ให้ตรงตามความต้องการของผู้ใช้
+                     <br />
+                     <b>การมีส่วนร่วมในโครงงานนี้</b>
+                     ได้วิเคราะห์และออกแบบระบบ โดยใช้เครื่องมือ Draw.io ในการวาด Diagram และออกแบบหน้าจอโดยใช้โปรแกรม
+                     Figma
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/project7.png" alt="Projects 2" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <span class="projects__subtitle">วิชาปฎิสัมพันธ์ระหว่างคอมพิวเตอร์กับผู้ใช้</span>
+                  <h2 class="projects__title">ระบบสารสนเทศร้านเช่ารถ</h2>
+
+                  <p class="projects__description">
+                     โครงงานนี้เป็นการออกแบบหน้าจอให้ตรงตามความต้องการของผู้ใช้ <br />
+                     <b>การมีส่วนร่วมในโครงงานนี้</b>
+                     ได้ออกแบบหน้าจอโดยใช้โปรแกรม Figma
+                  </p>
+               </div>
+            </article>
+         </div>
+      </section>
+
+      <!--==================== Activitys ====================-->
+      <section class="projects section" id="activitys">
+         <h2 class="section__title-1">
+            <span>Activitys.</span>
+         </h2>
+
+         <div class="projects__container container grid">
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity2.jpg" alt="Projects 1" class="projects__img">
+
+                  <!-- <a href="#" class="projects__button button">
+                        <i class="ri-arrow-right-up-line"></i>
+                     </a> -->
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">ช่วงเดือนกรกฎาคม - สิงหาคม 2565</span>
+                  <h2 class="projects__title">การแข่งขันกีฬาเยาวชนแห่งชาติ ครั้งที่ 37 " พัทลุงเกมส์"
+                     และการจัดการแข่งขันอาวุโสแห่งชาติ ครั้งที่ 4 "เสกักเกมส์" ณ อาคารสำนักวิทยบริการ มหาวิทยาลัยทักษิณ
+                     วิทยาเขตพัทลุง</h2>
+
+                  <p class="projects__description">
+                     ได้รับหน้าที่เป็นเจ้าหน้าที่บันทึกผลการแข่งขัน (ประจำศูนย์) ฝ่ายเทคโนโลยีสารสนเทศ
+                     (นักเรียน/นักศึกษา)
+                  </p>
+               </div>
+
+               <!-- <div class="projects__buttons">
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-github-line"></i> View
+                     </a>
+
+                     <a href="#" target="_blank" class="projects__link">
+                        <i class="ri-dribbble-line"></i> View
+                     </a>
+                  </div> -->
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity6.jpg" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">18 สิงหาคม 2565</span>
+                  <h2 class="projects__title">งานสัปดาห์วิทยาศาสตร์แห่งชาติ ปีการศึกษา 2565</h2>
+
+                  <p class="projects__description">
+                     เป็นวิทยากรแนะนำการเรียนรู้เรื่อง ถุงมือบังคับ โดยใช้การเขียนโปรแกรมด้วย scratch
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity.jpg" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">10-11 กันยายน 2565</span>
+                  <h2 class="projects__title">อบรมเชิงปฏิบัติการการใช้เครื่องมือในการจัดการโครงการซอฟต์แวร์</h2>
+
+                  <p class="projects__description">
+                     เรียนรู้การจัดการโครงการทางซอฟแวร์กับกรณีศึกษาและการเขียนโปรแกรมด้วย ColdFusion
+                     เพื่อพัฒนาเว็บแอปพลิเคชัน
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity11.jpg" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">ประจำปี 2565</span>
+                  <h2 class="projects__title">นิสิตที่มีผลการเรียนดี ระดับปริญญาตรี ประจำปี 2565 </h2>
+
+                  <p class="projects__description">
+                     สาขาคอมพิวเตอร์และเทคโนโลยีสารสนเทศ หลักสูตรวิทยาการคอมพิวเตอร์
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity10.jpg" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">3-5 กุมภาพันธ์ 2566</span>
+                  <h2 class="projects__title">ITM Network Games ณ มหาวิทยาลัยวลัยลักษณ์</h2>
+
+
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity3.jpg" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">18-19 กุมภาพันธ์ 2566</span>
+                  <h2 class="projects__title">อบรมเชิงปฏิบัติการโปรแกรมบริหารการเงินและบัญชีกองทุนสวัสดิการชุมชน (SWF)
+                  </h2>
+
+                  <p class="projects__description">
+                     ได้รับหน้าที่เป็นผู้ช่วยวิทยากร แนะนำการใช้งานโปรแกรมบริหารการเงินและบัญชีกองทุนสวัสดิการชุมชน
+                     (SWF) แก่ผู้เข้าอบรม
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity5-1.jpg" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">13 กันยายน 2566</span>
+                  <h2 class="projects__title">นำเสนอผลงานโครงงานจัยในกิจกรรม CSIT-UTHM Project Meeting ครั้งที่ 1
+                     ความร่วมมือกับมหาวิทยาลัย Universiti Tun Hussein Onn Malaysia (UTHM) ประเทศมาเลเซีย</h2>
+
+                  <p class="projects__description">
+                     กิจกรรมครั้งนี้ถือเป็นการฝึกทักษะการนำเสนอเป็นภาษาอังกฤษ
+                     ได้รับข้อเสนอแนะจากคณาจารย์ที่เชี่ยวชาญของมหาวิทยาลัย UTHM
+                     และคณาจารย์ทั้งสองมหาลัยวิทยาลัยได้แลกเปลี่ยนองค์ความรู้สำหรับการทำงานวิจัยในอนาคต
+                  </p>
+               </div>
+            </article>
+
+            <article class="projects__card">
+               <div class="projects__image">
+                  <img src="assets/img/activity9.jpg" alt="Projects 1" class="projects__img">
+               </div>
+
+               <div class="projects__content">
+                  <i class="ri-calendar-2-line"></i>
+                  <span class="activitys__subtitle">26 ตุลาคม 2566</span>
+                  <h2 class="projects__title">อบรมการยื่นขอรับความคุ้มครองทรัพย์สินทางปัญญา</h2>
+               </div>
+            </article>
+         </div>
+      </section>
+
+
+
+
+      <section class="contact section" id="contacts">
+         <div class="contact__container grid">
+            <div class="contact__data">
+               <h2 class="section__title-2">
+                  <span>Contacts</span>
+               </h2>
+
+               <p class="contact__description-1">
+                  <i class="ri-phone-line"></i>
+                  <span>062 1639311</span>
+               </p>
+               <p class="contact__description-1">
+                  <i class="ri-mail-line"></i>
+                  <a style="color:black" href="mailto:pinpraphaporn12@gmail.com">pinpraphaporn12@gmail.com</a>
+               </p>
+               <p class="contact__description-1">
+                  <i class="ri-map-pin-line"></i>
+                  <span>Nakhon Si Thammarat, Thailand</span>
+               </p>
+               <div class="geometric-box"></div>
+            </div>
+
+            <div class="contact__mail">
+               <h2 class="contact__title">
+                  <img src="assets/img/Pinprapha11.png" alt="Home image" class="home__img">
+               </h2>
+
+               <form action="" class="contact__form" id="contact-form" style="display: none;">
+               </form>
+            </div>
+
+            <div class="contact__social">
+               <img src="assets/img/curved-arrow.svg" alt="contact image" class="contact__social-arrow">
+
+               <div class="contact__social-data">
+                  <!-- <div>
+                        <p class="contact__social-description-1">
+                           Does not send emails
+                        </p>
+                        <p class="contact__social-description-2">
+                           Write me on my social networks
+                        </p>
+                     </div> -->
+
+                  <div class="contact__social-links">
+                     <a href="https://www.facebook.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-facebook-box-line"></i>
+                     </a>
+                     <a href="https://www.instagram.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                     </a>
+                     <a href="https://www.linkedin.com/" target="_blank" class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+   </main>
+
+   <!--==================== FOOTER ====================-->
+   <footer class="footer">
+      <div class="footer__container container grid">
+         <ul class="footer__links">
+            <li><a href="#about" class="footer__link">About</a></li>
+            <li><a href="#skills" class="footer__link">Skills</a></li>
+            <li><a href="#projects" class="footer__link">Projects</a></li>
+         </ul>
+
+         <span class="footer__copy">
+            &#169; All Rights Reserved By
+            <a href="#">Rian Lot</a>
+            Editor By
+            <a href="#"> Pinpraphaporn Prompanjai</a>
+         </span>
+      </div>
+   </footer>
+
+   <!--========== SCROLL UP ==========-->
+   <a href="#" class="scrollup" id="scroll-up">
+      <i class="ri-arrow-up-s-line"></i>
+   </a>
+
+   <!--=============== SCROLLREVEAL ===============-->
+   <script src="/assets/js/scrollreveal.min.js"></script>
+
+   <!--=============== EMAIL JS ===============-->
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+   <!--=============== MAIN JS ===============-->
+   <script src="assets/js/main.js"></script>
+</body>
+
 </html>
