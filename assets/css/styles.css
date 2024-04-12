@@ -239,7 +239,7 @@ body.dark-theme{
 
 /*=============== HEADER & NAV ===============*/
 .header{
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   top: 0;
   left: 0;
@@ -252,7 +252,7 @@ body.dark-theme{
   position: relative;
   height: var(--header-height);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
 }
 
