@@ -252,7 +252,7 @@ body.dark-theme{
   position: relative;
   height: var(--header-height);
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
 }
 
